@@ -1,0 +1,158 @@
+ /* Patie CSS Nav */
+
+ .header {
+   display: flex;
+   flex: 1;
+   flex-direction: row;
+   height:6rem ;
+   
+ }
+ .logo-div{
+   width: 230px;
+ }
+
+ .logo-image{
+   width: 50px;
+   border-radius: 27px;
+   margin-left: 135px;
+   margin-top: 25px;
+ }
+
+ .ASBL{
+   font-weight: 700;
+   text-align: right;
+   margin-top: -40px;
+   color: #ca1d1d;
+ }
+ .second-flex-box-nav{
+   display: flex;
+   flex: 1;
+ }
+
+ .styleheader{
+   background-color: #323a41;
+   position: absolute;
+   height: 2.5rem;
+   width: 60%;
+   right: 10.5rem;
+ }
+
+ .styleheader::before{
+   content: " ";
+   display: block;
+   position: absolute;
+   left: -35px;
+   bottom: -11px;
+   background-color: #ffffff;
+   width: 112px;
+   height: 47px;
+   transform: rotate(47deg);
+
+}
+
+.logo-buttom img{
+   width: 50px;
+   border-radius: 25px;
+   margin-top: -40px;
+}
+.SFDC{
+   font-weight: 900;    
+   color: #ca1d1d;
+   font-weight: bolder;
+   position: absolute;
+   left: 49.5px;
+   top: -19px;
+}
+
+.logo-buttom{
+   width: 100px;
+   margin-left: 55px;
+}
+
+.nav-content{
+   margin-left: -35px;
+}
+
+.home-icone-div:hover{
+  cursor: pointer;
+}
+
+.home-icone-div img{
+   position: absolute;
+   margin-left: -120px;
+}
+.logo-buttom button{
+   position: absolute;
+   padding: 5px 10px;
+   background-color: #ca1d1d;
+   border: none;
+   font-weight: 600;
+   border-radius: 2px;
+   color: #ffffff;
+   font-size: 15px;
+}
+
+.logo-buttom button:hover{ 
+   background-color: #ffffff;
+   color: #ca1d1d;
+   border-radius: 2px; 
+   cursor: pointer;
+   border: #ca1d1d solid 1px;
+   transition-property:  background-color;
+   transition-duration: 1s;
+}
+
+.nav-element{
+   justify-content: space-between;
+   display: flex;
+   width: 60%;
+   position: absolute;
+   top: 46px;
+   height: 40px;
+
+}
+
+.activity-imag{
+margin-right: -10px;
+margin-right: -2px;
+}
+.nav-element ul{
+   display: flex;
+   gap: 25px;
+   padding-top: 7px;
+   position: absolute;
+   right: 100px;
+
+}
+.nav-element ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: normal;
+   color: #323a41;
+}
+
+.nav-element ul li .active-onClick{
+   text-decoration: underline #ca1d1d  solid 2px;
+}
+
+.nav-element ul li a:hover{
+   text-decoration: underline #2e5a40 2px;
+   transition: 2s;
+}
+
+.nav-element ul li{
+   list-style: none;
+}
+.home-icone{
+   order: 1;
+   position: absolute;
+   left: -50px;
+}
+
+.activity{
+   width: 2.5rem;
+   order: 5;
+   position: absolute;
+   right: -85px;
+   top: -5px;
+}

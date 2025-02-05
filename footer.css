@@ -1,0 +1,237 @@
+/* partie footer */
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin-top: 5rem;
+    background-color: #2e5a40;
+    align-items: center;
+}
+
+.sous-footer{
+    background-color: #387953;
+    height: 20rem;
+    width: 95%;
+    margin-left: 60px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-contact{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 85px;
+    align-items: center;
+    height: 100px;
+    color: whitesmoke;
+}
+
+.text-contact h3{
+
+    margin-top: 50px;
+}
+
+.contenu-contact{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    height: 100px;
+    width: 22rem;
+    margin-left: 85px;
+    margin-top: -100px;
+    flex-wrap: wrap;
+}
+
+.lien-icones{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.lien-icones img{
+    border-radius: 15px;
+    background-color: #2e5a40;
+}
+
+.lien-icones img:hover{
+    transform: scale(1.2);
+}
+
+.localisation{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+
+.text-localisation{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 85px;
+    align-items: center;
+    height: 100px;
+    color: whitesmoke;
+}
+
+.text-localisation h3{
+    margin-top: 50px;
+}
+
+.contenu-localisation{ 
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    height: 100px;
+    width: 22rem;
+    margin-left: 85px;
+    margin-top: -40px;
+    flex-wrap: wrap;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+
+    background-color: #323a41;
+    height: 2rems;
+}
+
+.icone-copyright{
+    display: flex;
+    flex: 1;
+}
+
+.icone-copyright img{
+    width: 20px;
+    margin-left: 420px;
+    margin-top: 4px;
+
+}
+
+.contenu-conpy{
+    color: whitesmoke;
+    display: flex;
+    flex: 1;
+    margin-left: -85px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.long-arrow{
+    width: 25px;
+    margin-right: 10px;
+}
+
+/* Requêtes media pour la réactivité */
+
+/* Tablettes (768px et moins) */
+
+
+
+@media(max-width: 375px) {
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+    .localition{
+        position: absolute;
+        bottom: -25rem;
+        z-index: 2;
+    }
+    .lien-icones{
+        display: flex;
+        column-gap: 2rem;
+    }
+}
+
+@media(max-width: 900px){
+    footer{
+        display: flex;
+        width: 49rem;
+    }
+    .sous-footer{
+     display: flex;
+     width: 45rem;
+    }
+    .contenu-localisation{
+        margin-left: -50px;
+    }
+    .text-localisation{
+        margin-left: -50px;
+    }
+    .icone-copyright img{
+       position: absolute;
+       left: -52px;
+    }
+    .copyright{
+        width: 49rem;
+    }
+}
+
+@media(max-width: 640px){
+    footer{
+        height: 600px;
+        display: flex;
+        width: 39.5rem;
+        background-color: #2e5a40;
+    }
+    .sous-footer{
+        align-items: center;
+        align-content: center;
+        display: flex;
+        width: 30rem;
+        flex-wrap: wrap;
+        background-color: #387953;
+    }
+    .contact{
+        margin-top: -100px;
+        height: 200px;
+    }
+    .localisation{
+        height: 150px;
+    }
+   .contenu-contact{
+    margin-top: -100px;
+   }
+   .text-contact h3{
+    position: absolute;
+    top: 97px;
+   }
+   .text-localisation h3{
+     margin-top: -10px;
+     margin-left: 135px;
+   }
+   .contenu-localisation{
+    margin-top: -60px;
+    margin-left: 80px; 
+   }
+   .contenu-localisations h3{
+    position: absolute;
+    margin-top: 50px;
+   }
+   .contenu-localisations p{
+    line-height: 12px;
+   }
+   .lien-icones{
+    margin-top: -7px;
+   }
+   .copyright{
+    display: flex;
+    width: 39.5rem;
+   }
+   .icone-copyright{
+    margin-left: -120px;
+   }
+   .icone-copyright img{
+    position: absolute;
+    left: -238px;
+   }
+}

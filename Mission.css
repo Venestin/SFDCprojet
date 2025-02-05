@@ -1,0 +1,1021 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('Font/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat';
+    line-height: 1.6;
+  }
+
+
+ /* Patie CSS Nav */
+
+ .header {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height:6rem ;
+    
+  }
+  .logo-div{
+    width: 230px;
+  }
+
+  .logo-image{
+    width: 50px;
+    border-radius: 27px;
+    margin-left: 135px;
+    margin-top: 25px;
+  }
+
+  .ASBL{
+    font-weight: 700;
+    text-align: right;
+    margin-top: -40px;
+    color: #ca1d1d;
+  }
+  .second-flex-box-nav{
+    display: flex;
+    flex: 1;
+  }
+
+  .styleheader{
+    background-color: #323a41;
+    position: absolute;
+    height: 2.5rem;
+    width: 60%;
+    right: 10.5rem;
+  }
+
+  .styleheader::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    left: -35px;
+    bottom: -11px;
+    background-color: #ffffff;
+    width: 112px;
+    height: 47px;
+    transform: rotate(47deg);
+
+}
+
+.logo-buttom img{
+    width: 50px;
+    border-radius: 25px;
+    margin-top: -40px;
+}
+.SFDC{
+    font-weight: 900;    
+    color: #ca1d1d;
+    font-weight: bolder;
+    position: absolute;
+    left: 49.5px;
+    top: -19px;
+}
+
+.logo-buttom{
+    position: absolute;
+    width: 100px;
+    margin-left: 55px;
+}
+.logo-buttom img{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 110px;
+}
+
+.nav-element ul{
+    margin-right: -110px;
+}
+.home-icone-div:hover{
+   cursor: pointer;
+}
+ 
+.home-icone{
+    position: absolute;
+    margin-left: 130px;
+}
+.logo-buttom button{
+    position: absolute;
+    padding: 5px 10px;
+    margin-top: 50px;
+    margin-left: 245px;
+    background-color: #ca1d1d;
+    border: none;
+    font-weight: 600;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.logo-buttom button:hover{ 
+    background-color: #ffffff;
+    color: #ca1d1d;
+    border-radius: 2px; 
+    cursor: pointer;
+    border: #ca1d1d solid 1px;
+    transition-property:  background-color;
+    transition-duration: 1s;
+}
+
+.nav-element{
+    justify-content: space-between;
+    display: flex;
+    width: 25rem;
+    margin-left: 360px;
+    position: absolute;
+    top: 46px;
+    height: 40px;
+
+}
+
+.activity-imag{
+margin-right: -10px;
+margin-right: -2px;
+}
+.nav-element ul{
+    display: flex;
+    gap: 25px;
+    padding-top: 7px;
+    position: absolute;
+    right: 100px;
+
+}
+.nav-element ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    color: #323a41;
+}
+
+.nav-element ul li .active-onClick{
+    text-decoration: underline #ca1d1d  solid 2px;
+}
+
+.nav-element ul li a:hover{
+    text-decoration: underline #2e5a40 2px;
+    transition: 2s;
+}
+
+.nav-element ul li{
+    list-style: none;
+}
+.home-icone{
+    order: 1;
+    position: absolute;
+    left: -50px;
+}
+
+.activity{
+    width: 2.5rem;
+    order: 5;
+    position: absolute;
+    right: -85px;
+    top: -5px;
+}
+
+
+
+/* Partie Design CSS body Grand titre */
+
+
+/* Partie Entete */
+.mission-project{
+    display: flex;
+    width: 100%;
+}
+.mission{
+    text-align: left;
+}
+.tittle{
+   font-weight: 900;
+    text-align: justify;
+    margin-left: 6rem;
+    margin-top: 3rem;
+    font-weight: 900;
+    font-size: 21.5px;
+    width: 50%;
+}
+
+.div-forme{
+    background-color: #ca1d1d;
+    width: 65px;
+    height: 165px;
+    border-top-right-radius: 45px;
+    margin-left: 10px;
+    margin-top: 55px;
+}
+
+
+
+.Objecive-project{
+    display: block;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 6rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ /* partie valeurs */
+
+ .valeurs{
+    font-weight: 900;
+ }
+.valeurs-entriprise1{
+    align-content: center;
+    height: 45rem;
+    width: 48%;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.valeurs-entriprise1 div{
+    display: inline-block;
+    margin-left: 115px; ;
+    font-weight: 600;
+    color: #2e5a40;
+}
+
+.valeurs-entriprise1 img{
+    width: 3rem;
+    margin-left: 50px;
+}
+.valeurs-entriprise2{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3.5rem;
+    align-content: start;
+    height: 45rem;
+    width: 52%;
+    margin-top: 25px;
+    float: right;
+}
+
+.objectif p{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 12%;
+
+}
+.objectif{
+    margin-right: 20px;
+}
+.objectif img{
+    position: absolute;
+    margin-top: 38px;
+    width: 3rem;
+}
+
+
+/* partie impact */
+
+.impac{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 150px;
+    color: #2e5a40;
+    font-weight: 900;
+}
+.Impact{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 5rem;
+    column-gap: 3rem;
+    padding: 10px;
+    padding-left: 25px;
+    align-content: center;
+    margin-top: 200px;
+}
+
+
+.text-impact{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.Impact img{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.impact-icone{
+    height: 350px;
+}
+.traning{
+   font-weight: 600;
+    width: 75%;
+    margin-left: 115px;
+    font-size: 15px;
+}
+.traning p{
+    text-align: justify;
+}
+
+.work-icone{
+    margin-left: 8px;
+    margin-top: 23.5px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    background-color: #2e5a40;
+}
+.work-icone:hover{
+    transform: scale(1.1);
+}
+
+.work-icone p{
+    font-size: 75px;
+    margin-left: 25px;
+    margin-top: -11px;
+     color: #ca1d1d;
+}
+
+
+/* partie footer */
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin-top: 5rem;
+    background-color: #2e5a40;
+    align-items: center;
+}
+
+.sous-footer{
+    background-color: #387953;
+    height: 20rem;
+    width: 95%;
+    margin-left: 60px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-contact{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 85px;
+    align-items: center;
+    height: 100px;
+    color: whitesmoke;
+}
+
+.text-contact h3{
+
+    margin-top: 50px;
+}
+
+.contenu-contact{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    height: 100px;
+    width: 22rem;
+    margin-left: 85px;
+    margin-top: -100px;
+    flex-wrap: wrap;
+}
+
+.lien-icones{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.lien-icones img{
+    border-radius: 15px;
+    background-color: #2e5a40;
+}
+
+.lien-icones img:hover{
+    transform: scale(1.2);
+}
+
+.localisation{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+
+.text-localisation{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 85px;
+    align-items: center;
+    height: 100px;
+    color: whitesmoke;
+}
+
+.text-localisation h3{
+    margin-top: 50px;
+}
+
+.contenu-localisation{ 
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    height: 100px;
+    width: 22rem;
+    margin-left: 85px;
+    margin-top: -40px;
+    flex-wrap: wrap;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+
+    background-color: #323a41;
+    height: 2rems;
+}
+
+.icone-copyright{
+    display: flex;
+    flex: 1;
+}
+
+.icone-copyright img{
+    width: 20px;
+    margin-left: 420px;
+    margin-top: 4px;
+
+}
+
+.contenu-conpy{
+    color: whitesmoke;
+    display: flex;
+    flex: 1;
+    margin-left: -85px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.long-arrow{
+    width: 25px;
+    margin-right: 10px;
+}
+
+/* Requêtes media pour la réactivité */
+
+/* Tablettes (768px et moins) */
+
+
+
+@media(max-width: 375px) {
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+    .localition{
+        position: absolute;
+        bottom: -25rem;
+        z-index: 2;
+    }
+    .lien-icones{
+        display: flex;
+        column-gap: 2rem;
+    }
+}
+
+@media(max-width: 900px){
+    footer{
+        margin-left: 50px;
+        display: flex;
+        width: 49rem;
+    }
+    .sous-footer{
+     display: flex;
+     width: 45rem;
+     margin-left: 30px;
+    }
+    .contenu-localisation{
+        margin-left: -50px;
+    }
+    .text-localisation{
+        margin-left: -50px;
+    }
+    .icone-copyright img{
+       position: absolute;
+       left: -52px;
+    }
+    .copyright{
+        margin-left: 50px;
+        width: 49rem;
+    }
+}
+
+@media(max-width: 640px){
+    footer{
+        height: 600px;
+        display: flex;
+        width: 42.5rem;
+        background-color: #2e5a40;
+    }
+    .sous-footer{
+        align-items: center;
+        align-content: center;
+        display: flex;
+        height: 20rem;
+        width: 40rem;
+        flex-wrap: wrap;
+        background-color: #387953;
+    }
+    .contact{
+        margin-top: -100px;
+        height: 200px;
+    }
+    .localisation{
+        height: 150px;
+    }
+   .contenu-contact{
+    position: absolute;
+    bottom: -163rem;
+    margin-top: -100px;
+   }
+   .text-contact h3{
+    display: none;
+    position: absolute;
+    bottom: 0rem;
+    display: inline-block;
+   }
+   .text-localisation h3{
+    position: absolute;
+     margin-top: 150px;
+     margin-left: 50px;
+   }
+   .contenu-localisation{
+    margin-top: 100px;
+    margin-left: 3px; 
+   }
+   .contenu-localisations h3{
+    position: absolute;
+    margin-top: 50px;
+   }
+   .contenu-localisations p{
+    line-height: 12px;
+   }
+   .lien-icones{
+    margin-top: -1px;
+   }
+   .copyright{
+    display: flex;
+    width: 42.5rem;
+   }
+   .icone-copyright{
+    margin-left: -120px;
+   }
+   .icone-copyright img{
+    position: absolute;
+    left: -238px;
+   }
+}
+
+
+
+@media(max-width: 900px){
+    .impact-icone img{
+        z-index: -1;
+    }
+    .nav-element{
+        width: 20rem;
+    }
+    .logo-buttom button{
+        margin-left: 210px;
+    }
+    .home-icone{
+        position: absolute;
+        left: -120px;
+    }
+    .logo-buttom{
+        margin-left: 50px;
+    }
+    .activity-imag img{
+        margin-right: 25px;
+    }
+    .mission{
+        font-size: 1.2rem;
+    }
+    .impact-icone img{
+        z-index: -1px;
+    }
+    .impact1{
+        display: block;
+    }
+    .traning{
+        display: block;
+    }
+}
+
+@media(max-width: 640px){
+    .mission-project{
+        display: flex;
+        width: 43rem;
+    }
+    .header{
+        display: none;
+    }
+    .mission{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .valeurs-entriprise2{
+        display: flex;
+        width: 40rem;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .valeurs-entriprise2 div{
+        display: flex;
+        width: 35em;
+        margin-left: 100px;
+    }
+    .valeurs-entriprise1{
+        display: flex;
+        width:25rem;
+        height: 250px;
+        margin-left: 30px;
+    }
+    .valeurs{
+        position: absolute;
+        left: 140px;
+        margin-top: 30px;
+    }
+    .valeurs h1{
+        margin-left: 25px;
+    }
+    .valeurs img{
+        width: 100px;
+    }
+    .Impact{
+        display: flex;
+        width: 4rem;
+        flex-wrap: wrap;
+    }
+    .impac{
+        position: absolute;
+       left: 150px;
+       margin-top: 135px;
+    }
+
+    .text-impact{
+        margin-top: 200px;
+        display: flex;
+        width: 40rem;
+    }
+    .impact-icone img{
+        width: 25rem;
+    }
+    .impact-icone{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin-left: 85px;
+        width: 35rem;
+    }
+    .traning{
+        display: flex;
+        width: 30rem;
+    }
+    .work-icone{
+        margin-top: -10px;
+    }
+}
+
+@media(max-width: 820px){
+
+    .nav-element{
+        margin-left: 262px;
+    }
+    
+    .nav-element ul li a{
+        font-size: 0.9rem;
+    }
+    .logo-buttom{
+        margin-left: 10px;
+    }
+    .logo-buttom button{
+        width: 75px;
+        font-size: 0.7rem;
+        padding: 7px;
+    }
+    .home-icone{
+        position: absolute;
+        left: -75px;
+    }
+    .mission{
+        font-size: 1.1rem;
+    }
+}
+
+/* partie footer */
+
+/* footer{
+    display: flex;
+    flex-direction: column;
+    height: 27rem;
+    margin-top: 200px;
+    background-color: #2e5a40;
+    align-items: center;
+}
+
+.sous-footer{
+    background-color: #387953;
+    height: 20rem;
+    width: 90%;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.text-contact{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 85px;
+    align-items: center;
+    height: 100px;
+    color: whitesmoke;
+}
+
+.text-contact h3{
+
+    margin-top: 50px;
+}
+
+.contenu-contact{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    height: 100px;
+    width: 22rem;
+    margin-left: 85px;
+    margin-top: -100px;
+    flex-wrap: wrap;
+}
+
+.lien-icones{
+    display: flex;
+    gap: 75px;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.lien-icones img{
+    border-radius: 15px;
+    background-color: #2e5a40;
+}
+
+.lien-icones img:hover{
+    transform: scale(1.2);
+}
+
+.localisation{
+    background-color: #806767;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+
+.text-localisation{
+    margin-left: 85px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    height: 100px;
+    color: whitesmoke;
+}
+
+.text-localisation h3{
+    margin-top: 50px;
+}
+
+.contenu-localisation{ 
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    height: 100px;
+    width: 22rem;
+    margin-left: 85px;
+    margin-top: -40px;
+    flex-wrap: wrap;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+
+    background-color: #323a41;
+    height: 2rems;
+}
+
+.icone-copyright{
+    display: flex;
+    flex: 1;
+}
+
+.icone-copyright img{
+    width: 20px;
+    margin-left: 485px;
+    margin-top: 4px;
+
+}
+
+.contenu-conpy{
+    color: whitesmoke;
+    display: flex;
+    flex: 1;
+     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.long-arrow{
+    width: 25px;
+    margin-right: 10px;
+} */
+
+/* Media Queries
+@media (max-width: 768px) {
+    .tittle, .Objecive-project, .traning {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .valeurs-entriprise1 {
+        flex-direction: column;
+    }
+
+    .div-forme {
+        width: 45px;
+        height: 100px;
+    }
+
+    .Impact {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .Impact img {
+        max-width: 100%;
+    }
+
+    .work-icone {
+        width: 60px;
+        height: 60px;
+    }
+
+    .work-icone p {
+        font-size: 30px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tittle, .Objecive-project, .traning {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .div-forme {
+        width: 35px;
+        height: 80px;
+    }
+
+    .valeurs-entriprise1 img {
+        width: 2.5rem;
+    }
+
+    .Impact img {
+        width: 100%;
+    }
+
+    .work-icone {
+        width: 50px;
+        height: 50px;
+    }
+
+    .work-icone p {
+        font-size: 20px;
+        line-height: 50px;
+    }
+} */
